@@ -11,7 +11,7 @@ class Config(object):
     display = False
     finetune = False
 
-    train_root = '/data/Datasets/webface/CASIA-maxpy-clean-crop-144/'
+    train_root = 'CASIA-WebFace-clean-up'
     train_list = '/data/Datasets/webface/train_data_13938.txt'
     val_list = '/data/Datasets/webface/val_data_13938.txt'
 
