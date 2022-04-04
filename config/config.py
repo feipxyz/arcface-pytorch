@@ -11,18 +11,18 @@ class Config(object):
     display = False
     finetune = False
 
-    train_root = 'CASIA-WebFace-clean-up'
-    train_list = '/data/Datasets/webface/train_data_13938.txt'
-    val_list = '/data/Datasets/webface/val_data_13938.txt'
+    train_root = 'data/CASIA-WebFace-clean-up'
+    train_list = 'data/train.txt'
+    val_list = 'data/val.txt'
 
-    test_root = '/data1/Datasets/anti-spoofing/test/data_align_256'
-    test_list = 'test.txt'
+    test_root = 'data/lfw-align-128'
+    test_list = 'data/lfw_test_pair.txt'
 
-    lfw_root = '/data/Datasets/lfw/lfw-align-128'
-    lfw_test_list = '/data/Datasets/lfw/lfw_test_pair.txt'
+    lfw_root = 'data/lfw-align-128'
+    lfw_test_list = 'data/lfw_test_pair.txt'
 
     checkpoints_path = 'checkpoints'
-    load_model_path = 'models/resnet18.pth'
+    load_model_path = 'checkpoints/resnet18.pth'
     test_model_path = 'checkpoints/resnet18_110.pth'
     save_interval = 10
 
