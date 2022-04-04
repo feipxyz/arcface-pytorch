@@ -2,7 +2,7 @@ class Config(object):
     env = 'default'
     backbone = 'resnet18'
     classify = 'softmax'
-    num_classes = 13938
+    num_classes = 10575
     metric = 'arc_margin'
     easy_margin = False
     use_se = False
@@ -26,7 +26,7 @@ class Config(object):
     test_model_path = 'checkpoints/resnet18_110.pth'
     save_interval = 10
 
-    train_batch_size = 16  # batch size
+    train_batch_size = 128  # batch size
     test_batch_size = 60
 
     input_shape = (1, 128, 128)
